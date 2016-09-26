@@ -1,0 +1,68 @@
+@bg-color: #D8D8D8;
+
+
+/* FONTS */
+@font-color: #fff;
+@font-face {
+  font-family: Helvetica;
+  src: url(../fonts/Helvetica.otf);
+}
+
+
+
+
+
+body {
+	background: @bg-color;
+
+}
+
+#main {
+	background: url(../img/1page-bg.png) no-repeat center center;
+	background-size: cover;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	color: @font-color;
+	.main-content {
+		position: absolute;
+		top: 20em;
+		text-align: center;
+    	left: 0;
+    	right: 0;
+	}
+	.logo {
+    	img {
+    		// width: 620px;
+    		// height: 55px;
+    		width: 60%;
+    	}
+	}
+
+	.intro-text {
+		padding-top: 20px;
+    	font-size: 1.4em;
+    	text-align: center;
+    	
+    	left: 0;
+    	right: 0;
+    }
+
+    button {
+    	margin-top: 30px;
+    	background:    #f43838;
+    	border: none;
+    	width: 250px;
+    	height: 50px;
+		border-radius: 8px;
+		box-shadow: 0 4px 0 0 #961818;
+		color: #fff;
+		display: inline-block;
+		padding: 8px 20px;
+		text-align: center;
+		text-shadow: 1px 1px 0 #000;
+		font-size: 1.5em;
+    }
+
+}
+
