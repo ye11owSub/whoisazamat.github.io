@@ -3,6 +3,22 @@
   font-family: Helvetica;
   src: url(../fonts/Helvetica.otf);
 }
+@font-face {
+  font-family: RobotoSlab-Bold;
+  src: url(../fonts/RobotoSlab-Bold.ttf);
+}
+@font-face {
+  font-family: RobotoSlab-Light;
+  src: url(../fonts/RobotoSlab-Light.ttf);
+}
+@font-face {
+  font-family: RobotoSlab-Regular;
+  src: url(../fonts/RobotoSlab-Regular.ttf);
+}
+@font-face {
+  font-family: RobotoSlab-Thin;
+  src: url(../fonts/RobotoSlab-Thin.ttf);
+}
 body {
   background: #d8d8d8;
 }
@@ -45,4 +61,5 @@ body {
   text-align: center;
   text-shadow: 1px 1px 0 #000;
   font-size: 1.5em;
+  font-family: RobotoSlab-Regular;
 }
