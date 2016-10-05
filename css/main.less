@@ -41,16 +41,20 @@
 body {
 	background: @bg-color;
 
+
 }
 
+.container {
+  width: 970px !important;
+}
 /* main section */
 
 #main {
-	background: url(../img/1page-bg.png) no-repeat center center;
-	background-size: cover;
-	height: 100%;
+	background: url(../img/1page-bg.png) center top no-repeat;
+    background-size: cover;
+    min-width: 1440px;
+    height: 100%;
 	position: relative;
-	overflow: hidden;
 	color: @dark-font-color;
 	.main-content {
 		position: absolute;
@@ -82,15 +86,15 @@ body {
     	border: none;
     	width: 250px;
     	height: 50px;
-		  border-radius: 8px;
-		  box-shadow: 0 4px 0 0 #961818;
-		  color: #fff;
-		  display: inline-block;
-		  padding: 8px 20px;
-		  text-align: center;
-		  text-shadow: 1px 1px 0 #000;
-		  font-size: 1.5em;
-		  font-family: RobotoSlab-Regular;
+		border-radius: 8px;
+		box-shadow: 0 4px 0 0 #961818;
+		color: #fff;
+		display: inline-block;
+		padding: 8px 20px;
+		text-align: center;
+		text-shadow: 1px 1px 0 #000;
+		font-size: 1.5em;
+        font-family: RobotoSlab-Regular;
     }
 
 }
@@ -104,7 +108,8 @@ body {
 
   h3 {
     text-align: center;
-    font-size: 24pt;
+    font-size: 18pt;
+    font-family: RobotoSlab-Regular;
     margin-bottom: 30px;
     position: relative;
     display: inline-block;
@@ -134,8 +139,9 @@ body {
 
 /* bases */
   .icons-description {
-    font-size: 14pt;
+    font-size: 11pt;
     text-align: center;
+    font-family: RobotoSlab-Bold;
   }
 
   .icons {
@@ -154,9 +160,10 @@ body {
 
 .activity-container {
   text-align: center;
+  margin:  auto;
 }
 .activity-block {
-  padding-right: 20px;
+  padding-right: 50px;
   display: inline-block;
   text-align: center;
 }
@@ -176,10 +183,22 @@ body {
 
 .base-item {
   margin-right: 25px;
-  background: url("../img/1page-bg.png");
   width:250px;
   height: 170px;
   position: relative;
+}
+
+.livenloud {
+    background: url("../img/1-place.png");
+    width: 250px;
+    height: 170px;
+    max-width: 100%;
+  }
+.livemusic {
+  background: url("../img/2-place.png");
+  width: 250px;
+  height: 170px;
+  max-width: 100%;
 }
 
 .base-item-desc {
@@ -226,6 +245,11 @@ body {
   }
 
 }
+
+.event-active {
+  background: #fff;
+  color: #000;
+}
 .event-date {
   font-size: 10px;
 }
@@ -240,4 +264,23 @@ body {
   margin-top: 10px;
   text-decoration: underline;
   cursor: pointer;
+}
+/* join us */
+.join-us-container {
+  width: 85%;
+  margin-top: 60px;
+}
+
+/* footer */
+#footer {
+  height: 200px;
+  background: #282828;
+  color: #fff;
+  width: 100%;
+  margin-top: 80px;
+
+}
+
+.footer-container {
+
 }
