@@ -304,18 +304,16 @@ body {
     margin-top: 40px;
     position: relative;
     line-height: 30px;
+    padding-left: 42px;
 }
 
-.plus:focus {
-    background-color: red;
-}
 
 .plus i {
     margin-right: 15px;
 }
 
-.plus {
-    padding-left: 42px;
+.plus p{
+    font-family: RobotoSlab-Light;
 }
 
 .plus button {
@@ -366,16 +364,38 @@ body {
     text-align: center;
 }
 
-.item {
-    background-color: #282828;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+
+.owl-carousel{
+    position: relative;
 }
+
+.owl-nav{
+    left: 1px;
+    vertical-align: middle;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+.owl-nav div{
+    font-size: 40px;
+    display: inline-block;
+}
+
+.owl-next, .owl-prev{
+    padding-top: 140px ;
+    height: 100%;
+    width: 30px;
+}
+
+
+.owl-next{
+    float: right;
+}
+
+
 
 .photo {
     height: 200px;
-    /*width: 205px;*/
 }
 
 .introduction {
@@ -383,16 +403,38 @@ body {
 }
 
 .item {
+    padding: 5px;
     font-size: 11px;
     color: #848484;
+    position: relative;
+    background-color: #282828;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+
+
 }
 
 .item b, .item p {
+    /*font-family: reg;*/
     font-size: 13px;
     color: white;
 }
 
 .item a {
+    opacity: 0.75;
     text-decoration: underline;
-    color: #848484;
+    /*color: #848484;*/
+    color: white;
+    cursor: pointer;
+}
+
+.white, .white p, .white b, .white a{
+    background-color: white;
+    color:  black;
+}
+
+h4{
+    font-family: RobotoSlab-Regular;
 }
