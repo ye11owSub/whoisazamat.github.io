@@ -1,284 +1,398 @@
 /* FONTS */
 @font-face {
-  font-family: Helvetica;
-  src: url(../fonts/Helvetica.otf);
+    font-family: Helvetica;
+    src: url(../fonts/Helvetica.otf);
 }
+
 @font-face {
-  font-family: RobotoSlab-Bold;
-  src: url(../fonts/RobotoSlab-Bold.ttf);
+    font-family: RobotoSlab-Bold;
+    src: url(../fonts/RobotoSlab-Bold.ttf);
 }
+
 @font-face {
-  font-family: RobotoSlab-Light;
-  src: url(../fonts/RobotoSlab-Light.ttf);
+    font-family: RobotoSlab-Light;
+    src: url(../fonts/RobotoSlab-Light.ttf);
 }
+
 @font-face {
-  font-family: RobotoSlab-Regular;
-  src: url(../fonts/RobotoSlab-Regular.ttf);
+    font-family: RobotoSlab-Regular;
+    src: url(../fonts/RobotoSlab-Regular.ttf);
 }
+
 @font-face {
-  font-family: RobotoSlab-Thin;
-  src: url(../fonts/RobotoSlab-Thin.ttf);
+    font-family: RobotoSlab-Thin;
+    src: url(../fonts/RobotoSlab-Thin.ttf);
 }
+
 @font-face {
-  font-family: FlatironCasual;
-  src: url(../fonts/FlatironCasual.ttf);
+    font-family: FlatironCasual;
+    src: url(../fonts/FlatironCasual.ttf);
 }
+
 @font-face {
-  font-family: Formular-Light;
-  src: url(../fonts/Formular-Light.otf);
+    font-family: Formular-Light;
+    src: url(../fonts/Formular-Light.otf);
 }
+
 body {
-  background: #ffffff;
+    background: #ffffff;
 }
+
 .container {
-  width: 970px !important;
+    width: 970px !important;
 }
+
 /* main section */
 #main {
-  background: url(../img/1page-bg.png) no-repeat center center;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  color: #ffffff;
+    background: url(../img/1page-bg.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: #ffffff;
 }
+
 #main .main-content {
-  position: absolute;
-  top: 20em;
-  text-align: center;
-  left: 0;
-  right: 0;
+    position: absolute;
+    top: 20em;
+    text-align: center;
+    left: 0;
+    right: 0;
 }
+
 #main .logo img {
-  width: 60%;
+    width: 60%;
 }
+
 #main .intro-text {
-  padding-top: 20px;
-  font-size: 1.4em;
-  text-align: center;
-  left: 0;
-  right: 0;
+    padding-top: 20px;
+    font-size: 1.4em;
+    text-align: center;
+    left: 0;
+    right: 0;
 }
+
 #main button {
-  margin-top: 30px;
-  background: #f43838;
-  border: none;
-  width: 250px;
-  height: 50px;
-  border-radius: 8px;
-  box-shadow: 0 4px 0 0 #961818;
-  color: #fff;
-  display: inline-block;
-  padding: 8px 20px;
-  text-align: center;
-  text-shadow: 1px 1px 0 #000;
-  font-size: 1.5em;
-  font-family: RobotoSlab-Regular;
+    margin-top: 30px;
+    background: #f43838;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 0 0 #961818;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 20px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    font-size: 1.5em;
+    font-family: RobotoSlab-Regular;
 }
+
 /* activity section*/
 #activity {
-  color: #000000;
-  height: 100%;
-  /* bases */
+    color: #000000;
+    /*Я НЕ ПОНЯЛ НАХУЙ ТУТ ВЫСОТА?*/
+    /*height: 100%;*/
+    /* bases */
 }
+
 #activity h3 {
-  text-align: center;
-  font-size: 18pt;
-  font-family: RobotoSlab-Regular;
-  margin-bottom: 30px;
-  position: relative;
-  display: inline-block;
-  padding: 0 15px;
+    text-align: center;
+    font-size: 18pt;
+    font-family: RobotoSlab-Regular;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    padding: 0 15px;
 }
+
 #activity h3:before,
 #activity h3:after {
-  background: #000;
-  content: "";
-  display: block;
-  height: 1px;
-  position: absolute;
-  top: 50%;
-  width: 80px;
+    background: #000;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 80px;
 }
+
 #activity h3:before {
-  right: 100%;
+    right: 100%;
 }
+
 #activity h3:after {
-  left: 100%;
+    left: 100%;
 }
+
 #activity .icons-description {
-  font-size: 11pt;
-  text-align: center;
-  font-family: RobotoSlab-Bold;
+    font-size: 11pt;
+    text-align: center;
+    font-family: RobotoSlab-Bold;
 }
+
 #activity .icons {
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  margin-bottom: 25px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 25px;
 }
+
 .block-title {
-  overflow: hidden;
-  text-align: center;
+    overflow: hidden;
+    text-align: center;
 }
+
 .activity-container {
-  text-align: center;
-  margin: auto;
+    text-align: center;
+    margin: auto;
 }
+
 .activity-block {
-  padding-right: 50px;
-  display: inline-block;
-  text-align: center;
+    padding-right: 50px;
+    display: inline-block;
+    text-align: center;
 }
+
 .bases {
-  margin-top: 50px;
+    margin-top: 50px;
 }
+
 .bases-description {
-  color: #fff;
-  background-color: #282828;
-  display: flex;
-  padding: 20px;
-  width: 100%;
-  margin: auto;
+    color: #fff;
+    background-color: #282828;
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
 }
+
 .base-item {
-  margin-right: 20px;
-  width: 250px;
-  height: 170px;
-  position: relative;
+    margin-right: 20px;
+    width: 250px;
+    height: 170px;
+    position: relative;
 }
+
 .livenloud {
-  background: url("../img/1-place.png");
-  width: 250px;
-  height: 170px;
-  max-width: 100%;
+    background: url("../img/1-place.png");
+    width: 250px;
+    height: 170px;
+    max-width: 100%;
 }
+
 .livemusic {
-  background: url("../img/2-place.png");
-  width: 250px;
-  height: 170px;
-  max-width: 100%;
+    background: url("../img/2-place.png");
+    width: 250px;
+    height: 170px;
+    max-width: 100%;
 }
+
 .base-item-desc {
-  width: 100%;
-  background: url("../img/shadow.png") repeat-y;
-  position: absolute;
-  bottom: 0;
-  padding-left: 20px;
-  padding-bottom: 5px;
-  margin-bottom: 0;
+    width: 100%;
+    background: url("../img/shadow.png") repeat-y;
+    position: absolute;
+    bottom: 0;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
 }
+
 .base-item-desc h5 {
-  margin-bottom: 0;
-  font-family: RobotoSlab-Regular;
-  font-size: 12pt;
+    margin-bottom: 0;
+    font-family: RobotoSlab-Regular;
+    font-size: 12pt;
 }
+
 .base-item-desc a {
-  color: #fff;
-  font-family: Formular-Light;
-  font-size: 9pt;
-  opacity: 0.6;
+    color: #fff;
+    font-family: Formular-Light;
+    font-size: 9pt;
+    opacity: 0.6;
 }
+
 .base-item-about {
-  width: 350px;
-  font-family: RobotoSlab-Light;
+    width: 350px;
+    font-family: RobotoSlab-Light;
 }
+
 .base-item-about b {
-  font-family: RobotoSlab-Bold;
+    font-family: RobotoSlab-Bold;
 }
+
 /* events */
 .performances {
-  margin-top: 50px;
+    margin-top: 50px;
 }
+
 .events {
-  color: #fff;
-  background-color: #282828;
-  display: flex;
-  padding: 20px;
-  width: 85%;
-  margin: auto;
-  margin-bottom: 50px;
+    color: #fff;
+    background-color: #282828;
+    display: flex;
+    padding: 20px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 50px;
 }
+
 .event {
-  width: 220px;
-  height: 350px;
-  margin-right: 25px;
-  overflow: hidden;
-  position: relative;
+    width: 220px;
+    height: 350px;
+    margin-right: 25px;
+    overflow: hidden;
+    position: relative;
 }
+
 .event h5 {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
+
 .event-active {
-  background: #fff;
-  color: #000;
+    background: #fff;
+    color: #000;
 }
+
 .event-date {
-  font-size: 10px;
+    font-size: 10px;
 }
+
 .event-desc {
-  margin-top: 10px;
-  height: 90px;
-  overflow: hidden;
+    margin-top: 10px;
+    height: 90px;
+    overflow: hidden;
 }
+
 .more {
-  position: absolute;
-  bottom: 0;
-  margin-top: 10px;
-  text-decoration: underline;
-  cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    margin-top: 10px;
+    text-decoration: underline;
+    cursor: pointer;
 }
+
 /* join us */
 .join-us-container {
-  width: 85%;
-  margin-top: 60px;
+    width: 85%;
+    margin-top: 60px;
 }
+
 /* footer */
 #footer {
-  /*height: 200px;*/
-  background: #282828;
-  color: #fff;
-  width: 100%;
-  margin-top: 80px;
+    /*height: 200px;*/
+    background: #282828;
+    color: #fff;
+    width: 100%;
+    margin-top: 30px;
 }
 
-.footer{
-  margin-top: 30px;
-  text-align: right;
+.footer {
+    margin-top: 30px;
+    text-align: right;
 }
 
-.contacts{
-  margin-top: 20px;
-  font-family: RobotoSlab-Light;
+.contacts {
+    margin-top: 20px;
+    font-family: RobotoSlab-Light;
 }
 
-.contacts h5{
-  font-size: 10pt;
+.contacts h5 {
+    font-size: 10pt;
 }
 
-.social{
-  /*padding: 25px;*/
-  font-size: 20px;
-  text-align: left;
-  margin: 15px 45px;
+.plus {
+    margin-top: 40px;
+    position: relative;
+    line-height: 30px;
 }
 
-.info{
-  color: #787878;
-  font-size: 9pt;
-  line-height: 0;
-  margin-bottom: 15px;
+.plus:focus {
+    background-color: red;
 }
 
-.footer img{
-  height: 23px;
-}
-.end{
-  color: #787878;
-  text-align: center;
+.plus i {
+    margin-right: 15px;
 }
 
-.slider{
-  /*margin-top: 20px;*/
-  text-align: center;
+.plus {
+    padding-left: 42px;
+}
+
+.plus button {
+    position: absolute;
+    left: 100px;
+    overflow: hidden;
+    margin: 5px auto;
+    background: #f43838;
+    border: none;
+    width: 200px;
+    height: 43px;
+    border-radius: 8px;
+    box-shadow: 0 4px 0 0 #961818;
+    color: #fff;
+    /*display: inline-block;*/
+    padding: 8px 20px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    font-size: 1.2em;
+    font-family: RobotoSlab-Regular;
+}
+
+.social {
+    /*padding: 25px;*/
+    font-size: 20px;
+    text-align: left;
+    margin: 15px 45px;
+}
+
+.info {
+    color: #787878;
+    font-size: 9pt;
+    line-height: 0;
+    margin-bottom: 15px;
+}
+
+.footer img {
+    height: 23px;
+}
+
+.end {
+    color: #787878;
+    text-align: center;
+}
+
+.slider {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.item {
+    background-color: #282828;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.photo {
+    height: 200px;
+    /*width: 205px;*/
+}
+
+.introduction {
+    margin-top: 13px;
+}
+
+.item {
+    font-size: 11px;
+    color: #848484;
+}
+
+.item b, .item p {
+    font-size: 13px;
+    color: white;
+}
+
+.item a {
+    text-decoration: underline;
+    color: #848484;
 }
