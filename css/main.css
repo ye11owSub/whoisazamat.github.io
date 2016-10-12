@@ -314,7 +314,7 @@ body {
 }
 
 .plus {
-    margin-top: 40px;
+    margin-top: 30px;
     position: relative;
     line-height: 30px;
     padding-left: 42px;
@@ -327,7 +327,7 @@ body {
 
 .plus p{
     font-family: RobotoSlab-Light;
-    margin-bottom: -2px;
+    /*margin-bottom: -2px;*/
 }
 
 .plus button {
@@ -421,7 +421,9 @@ body {
     float: right;
 }
 
-
+iframe{
+    margin-top: 12px;
+}
 
 .photo {
     height: 200px;

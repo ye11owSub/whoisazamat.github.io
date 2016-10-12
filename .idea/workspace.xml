@@ -21,10 +21,10 @@
     <favorites_list name="back2music" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.9">
+    <splitter split-orientation="horizontal" split-proportion="0.56036216">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="306">
@@ -36,7 +36,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/common.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="391">
@@ -53,8 +53,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="415" column="0" selection-start-line="415" selection-start-column="2" selection-end-line="417" selection-end-column="3" />
+                <state relative-caret-position="166">
+                  <caret line="316" column="17" selection-start-line="316" selection-start-column="17" selection-end-line="316" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -79,8 +79,8 @@
       <list>
         <option value="$PROJECT_DIR$/css/main.less" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/js/common.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -278,15 +278,15 @@
       <workItem from="1476190532210" duration="2291000" />
       <workItem from="1476197467328" duration="7391000" />
       <workItem from="1476225022928" duration="643000" />
-      <workItem from="1476299595910" duration="5552000" />
+      <workItem from="1476299595910" duration="5970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41045000" />
+    <option name="totallyTimeSpent" value="41463000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27232796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -712,10 +712,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="415" column="0" selection-start-line="415" selection-start-column="2" selection-end-line="417" selection-end-column="3" />
+        <state relative-caret-position="391">
+          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
           <folding />
         </state>
       </provider>
@@ -730,10 +730,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        <state relative-caret-position="166">
+          <caret line="316" column="17" selection-start-line="316" selection-start-column="17" selection-end-line="316" selection-end-column="17" />
           <folding />
         </state>
       </provider>
