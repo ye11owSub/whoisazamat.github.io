@@ -293,25 +293,32 @@ body {
 
 .footer {
     margin-top: 30px;
-
 }
+
 
 .footer-container{
     text-align: right;
 }
 
 .footer-container img{
-    height: 30px;
+    height: 25px;
 }
 
 .contacts {
-    margin-top: 20px;
+    margin-top: 34px;
     font-family: RobotoSlab-Light;
 }
 
-.contacts h5 {
-    font-size: 10pt;
+.name{
+    margin-top: -5px;
 }
+
+.name h5{
+    font-size: 10pt;
+    margin: 0 0 10px;
+
+}
+
 
 .plus {
     margin-top: 30px;
@@ -326,7 +333,7 @@ body {
 }
 
 .plus p{
-    font-family: RobotoSlab-Light;
+    font-family: RobotoSlab-Regular;
     /*margin-bottom: -2px;*/
 }
 
@@ -351,14 +358,14 @@ body {
 }
 
 .social{
-    padding-left: 43px;
+    padding-left: 97px;
     text-align: left;
 }
 
 .social img{
     opacity: 0.8;
-    height: 30px;
-    width: 30px;
+    height: 29px;
+    /*width: 30px;*/
     margin: 15px 5px;
 }
 
@@ -366,15 +373,11 @@ body {
     opacity: 1.0;
 }
 
-.pad{
-    margin-top: 19px;
-}
 
 .info {
     color: #787878;
     font-size: 9pt;
     line-height: 0;
-    margin-bottom: 15px;
 }
 
 
@@ -423,6 +426,7 @@ body {
 
 iframe{
     margin-top: 12px;
+    margin-left: -36px;
 }
 
 .photo {
@@ -435,7 +439,7 @@ iframe{
 }
 
 .item {
-    padding: 5px;
+    padding: 10px;
     font-size: 11px;
     color: #848484;
     position: relative;
@@ -462,7 +466,7 @@ iframe{
     cursor: pointer;
 }
 
-.white, .white p, .white b, .white a{
+.item:hover  p, .item:hover b, .item:hover a, .item:hover{
     background-color: white;
     color:  black;
 }

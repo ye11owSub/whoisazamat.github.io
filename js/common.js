@@ -12,9 +12,9 @@ $(document).ready(function () {
     $('.owl-carousel').owlCarousel({
         items: 3,
         loop: true,
-        margin: 10,
+        // margin: 10,
         mouseDrag: false,
-        nav: true,
+        nav: true
         // navText: [
         //     "<i class='icon-chevron-left'></i>",
         //     "<i class='icon-chevron-right'></i>"
@@ -23,9 +23,9 @@ $(document).ready(function () {
     $( ".owl-prev").html('<i class="fa fa-chevron-left"></i>');
     $( ".owl-next").html('<i class="fa fa-chevron-right"></i>');
 
-    $(".item").click(function() {
-        $(".item").removeClass("white");
-        $(this).toggleClass("white");
-    })
+    // $(".item").click(function() {
+    //     $(".item").removeClass("white");
+    //     $(this).toggleClass("white");
+    // })
 
 });
