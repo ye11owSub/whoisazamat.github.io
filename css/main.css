@@ -438,7 +438,7 @@ iframe{
     margin-top: 13px;
 }
 
-.item {
+.items {
     padding: 10px;
     font-size: 11px;
     color: #848484;
@@ -452,13 +452,13 @@ iframe{
 
 }
 
-.item b, .item p {
+.items b, .items p {
     font-family: Lava;
     font-size: 14px;
     color: white;
 }
 
-.item a {
+.items a {
     opacity: 0.75;
     text-decoration: underline;
     /*color: #848484;*/
@@ -466,11 +466,46 @@ iframe{
     cursor: pointer;
 }
 
-.item:hover  p, .item:hover b, .item:hover a, .item:hover{
+.items:hover  p, .items:hover b, .items:hover a, .items:hover{
     background-color: white;
     color:  black;
 }
 
 h4{
     font-family: RobotoSlab-Regular;
+}
+
+.modelHead{
+    text-align: left;
+    padding: 10px 40px;
+    background-color: #E8E8E8;
+    border-bottom: 1px solid #CFCFCF;
+    font-family:  RobotoSlab-Bold;
+    font-size: 24px;
+}
+
+.modelText{
+    font-family: RobotoSlab-Light;
+    font-size: 14px;
+}
+
+.modelData{
+    font-family: RobotoSlab-Regular;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.modelMain{
+    margin-top: 20px;
+}
+
+.close{
+    float: right;
+    padding-right: 20px;
+    padding-top: 6px;
+}
+
+.modelMain iframe{
+    margin-left: 0;
+    margin-bottom: 20px;
 }
